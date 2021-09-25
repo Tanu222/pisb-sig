@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="./timer.css">
+    <script src="./timer.js" ></script>
+    <title>Timer</title>
+</head>
+<body class="container" onload="count()">
+    <p class="title">COMING SOON</p>
+    <p class="description">The website is currently being built, but we will be up soon. Until then you can get in touch <br>by dropping your email below.</p>
+    <div class="time row offset-md-3">
+    <div class="col-2 days">
+        <div class="sub-title">Days</div>
+        <div class="row d-flex">
+        <div class="box col-4 align-self-center" id="days0"></div>
+        <div class="box col-4" id="days1"></div>
+        </div>
+    </div>
+    <div class="col-2 days">
+        <div class="sub-title">Hours</div>
+        <div class="row">
+        <div class="box col-4" id="hours0"></div>
+        <div class="box col-4" id="hours1"></div>
+        </div>
+    </div>
+    <div class="col-2 days">
+        <div class="sub-title">Minutes</div>
+        <div class="row">
+        <div class="box col-4" id="minutes0"></div>
+        <div class="box col-4" id="minutes1"></div>
+        </div>
+    </div>
+    <div class="col-2 days">
+        <div class="sub-title">Seconds</div>
+        <div class="row">
+        <div class="box col-4" id="seconds0"></div>
+        <div class="box col-4" id="seconds1"></div>
+        </div>
+    </div>
+    </div>
+    <div class="contact">GET NOTIFIED</div>
+    <div class="description">We will let you know when we are launching. Hell we may also send you a beta invite.</div>
+    <div class="form-group row offset-md-3 ">
+        <div class="col-md-7 submit">
+            <input class="form-control" type="email" placeholder="Enter your email" id="email" required>
+        </div>
+        <div class=" col-md-4 ">
+            <button class="btn" type="submit">Subscribe</button>
+        </div>
+    </div>
+</body>
+</html>

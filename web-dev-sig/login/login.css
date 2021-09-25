@@ -1,0 +1,42 @@
+body{
+    margin-top: 80px;
+    background-image: linear-gradient(black 50%, white 50%);
+}
+.star{
+    color: red;
+}
+.box{
+    background-color: white;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.6);
+}
+fieldset{
+    padding-top : 20px ;
+}
+
+a img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin: 15px;
+}
+.links{
+    margin-top:10px ;
+    text-align: center;
+
+}
+.title{
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 500;
+}
+.btn-primary{
+    background-color: black;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: gray;
+}
